@@ -165,4 +165,110 @@ Estudo contínuo em Estatística, Machine Learning e Ciência de Dados.
 Este repositório documenta sua jornada técnica e serve como portfólio profissional.
 
 <br><br>
+## 🗺️ 10. Roadmap do Curso
 
+Este roadmap organiza o progresso do curso **Statistics for Data Science with Python — IBM** em etapas claras, permitindo acompanhar a evolução do aprendizado de forma estruturada e consistente.
+
+
+### 📌 **Fase 1 — Preparação do Ambiente**
+- [x] Criar estrutura inicial do projeto  
+- [x] Configurar `requirements.txt`  
+- [x] Criar `config.py`  
+- [x] Configurar CI  
+- [x] Configurar CD (ativado apenas por tags)  
+- [ ] Criar template base para notebooks  
+- [ ] Criar índice inicial no `statistics_book.md`  
+
+<br>
+
+
+### 📌 **Fase 2 — Fundamentos de Estatística**
+**Objetivo:** Construir a base teórica e prática essencial.
+
+- [ ] Notebook 01 — Introdução à Estatística  
+- [ ] Registrar conceitos no Companion Book  
+- [ ] Criar exemplos próprios além dos do curso  
+
+<br>
+
+
+### 📌 **Fase 3 — Tipos de Dados e Distribuições**
+- [ ] Notebook 02 — Tipos de Dados e Distribuições  
+- [ ] Criar gráficos adicionais (histogramas, KDE, boxplots)  
+- [ ] Documentar no Companion Book  
+- [ ] Criar exemplos com datasets reais (opcional)  
+
+<br>
+
+### 📌 **Fase 4 — Medidas de Tendência Central e Dispersão**
+- [ ] Notebook 03 — Média, Mediana, Moda, Variância, Desvio  
+- [ ] Criar visualizações comparativas  
+- [ ] Criar seção no Companion Book com fórmulas e interpretações  
+- [ ] Criar exercícios extras  
+
+<br>
+
+### 📌 **Fase 5 — Probabilidade**
+- [ ] Notebook 04 — Probabilidade  
+- [ ] Criar exemplos com eventos independentes e dependentes  
+- [ ] Documentar propriedades no Companion Book  
+- [ ] Criar simulações com NumPy  
+
+<br>
+
+### 📌 **Fase 6 — Distribuições Estatísticas**
+- [ ] Notebook 05 — Distribuições (Normal, Binomial, Poisson, etc.)  
+- [ ] Criar gráficos comparativos  
+- [ ] Criar simulações com `scipy.stats`  
+- [ ] Documentar cada distribuição no Companion Book  
+
+<br>
+
+### 📌 **Fase 7 — Amostragem e Estimação**
+- [ ] Notebook 06 — Amostragem e Estimadores  
+- [ ] Criar exemplos com diferentes tamanhos de amostra  
+- [ ] Documentar conceitos de viés e variância  
+- [ ] Criar exercícios extras  
+
+<br>
+
+### 📌 **Fase 8 — Testes de Hipótese**
+- [ ] Notebook 07 — Testes de Hipótese  
+- [ ] Criar exemplos com t-test, z-test, chi-square  
+- [ ] Criar fluxograma de decisão no Companion Book  
+- [ ] Criar exercícios extras  
+
+<br>
+
+### 📌 **Fase 9 — Correlação e Regressão**
+- [ ] Notebook 08 — Correlação e Regressão  
+- [ ] Criar gráficos de dispersão com linhas de tendência  
+- [ ] Documentar coeficientes e interpretações  
+- [ ] Criar exemplos com datasets reais  
+
+<br>
+
+### 📌 **Fase 10 — Estatística Aplicada com Python**
+- [ ] Notebook 09 — Estatística Aplicada  
+- [ ] Criar estudo de caso próprio  
+- [ ] Criar relatório em `outputs/reports/`  
+- [ ] Documentar conclusões no Companion Book  
+
+<br>
+
+### 📌 **Fase 11 — Consolidação e Portfólio**
+- [ ] Revisar todos os notebooks  
+- [ ] Revisar o Companion Book  
+- [ ] Criar README final com badges e links  
+- [ ] Criar release versionada (ex.: `v1.0.0`)  
+- [ ] Publicar no GitHub como projeto de portfólio  
+
+<br>
+
+### 📌 **Fase 12 — Extensões Futuras (Opcional)**
+- [ ] Criar dashboards com Plotly  
+- [ ] Criar scripts automatizados de análise  
+- [ ] Integrar com datasets externos  
+- [ ] Criar mini-projetos estatísticos  
+
+<br><br>

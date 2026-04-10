@@ -17,6 +17,7 @@ venv/
 *.ipynb_checkpoints
 
 # --- Data ---
+notebooks/laboratory
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
