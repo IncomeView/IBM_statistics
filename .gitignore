@@ -18,6 +18,12 @@ venv/
 
 # --- Data ---
 notebooks/laboratory
+notebooks/1_*
+notebooks/2_*
+notebooks/3_*
+notebooks/4_*
+notebooks/5_*
+notebooks/6_*
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep

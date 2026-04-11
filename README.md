@@ -1,274 +1,304 @@
 <br>
 
-
 ## 📊 Statistics for Data Science with Python — IBM  
-> ### *Ambiente de estudo, prática e documentação*
+> #### *Ambiente de estudo, prática e documentação pessoal*
 
-<br>
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![IBM](https://img.shields.io/badge/IBM-Statistics%20for%20Data%20Science-blue)
+![License](https://img.shields.io/badge/License-Projeto%20Autoral-green)
 
-
-Este repositório reúne todo o material produzido durante o curso **Statistics for Data Science with Python**, oferecido pela IBM.  
-O objetivo é construir uma base sólida em estatística aplicada, com foco em técnicas essenciais para análise de dados e Machine Learning.
-
-Aqui você encontrará:
-- 🧪 **Notebooks práticos** com exercícios e experimentos  
-- 📚 **Companion Book** (opcional) com explicações teóricas  
-- 📂 **Estrutura organizada** para estudo e reuso  
-- 🧠 **Processo de aprendizado documentado**  
-- 📊 **Visualizações e análises estatísticas**  
+Este repositório documenta minha jornada no curso **Statistics for Data Science with Python**, oferecido pela IBM.  
+O objetivo é consolidar o aprendizado em estatística aplicada, organizar o raciocínio estatístico e construir um ambiente profissional de estudo e experimentação.
 
 <br><br>
-## 🎯 1. Objetivo do Repositório
+## 🔒 1. Política de Conteúdo (IBM & Autoral)
 
-Este projeto documenta:
-- o estudo completo do curso IBM Statistics for Data Science  
-- os notebooks com práticas e exemplos  
-- o raciocínio estatístico aplicado em Python  
-- a organização de um ambiente profissional de Data Science  
-- a evolução contínua do aprendizado  
+Para respeitar direitos autorais e manter o repositório profissional:
 
-O foco é dominar **estatística aplicada**, não apenas executar código.
+#### ✔ Conteúdo incluído no repositório  
+Somente materiais **autorais**, criados por mim:
 
-<br><br>
-## 📚 2. Conteúdo do Curso
+- `notebooks/7_finalExamReview.ipynb`  
+- `notebooks/8_appliedStatisticsForDataScience.ipynb`  
+- `docs/statistics_book.md` (Companion Book)  
+- scripts, utilitários e dados sintéticos  
+- anotações e análises próprias  
 
-O curso aborda tópicos fundamentais, incluindo:
-- Tipos de dados e distribuições  
-- Medidas de tendência central e dispersão  
-- Probabilidade  
-- Distribuições estatísticas  
-- Amostragem e estimação  
-- Testes de hipótese  
-- Correlação e regressão  
-- Estatística aplicada com Python  
+#### ❌ Conteúdo excluído do repositório  
+Os notebooks **1 a 6** são materiais originais da IBM.  
+Por isso:
+- não são versionados  
+- estão listados no `.gitignore`  
+- são usados apenas localmente para estudo  
 
-Companion Book em:
-- `docs/statistics_book.md`
+Essa abordagem garante conformidade com direitos autorais e transparência.
 
 <br><br>
-## 🧪 3. Notebooks do Curso
+## 📂 2. Estrutura do Projeto
 
-Os notebooks seguem a progressão natural do conteúdo:
-
-`notebooks/`
-1. 01_intro_statistics.ipynb  
-2. 02_data_types_and_distributions.ipynb  
-3. 03_central_tendency_and_variability.ipynb  
-4. 04_probability.ipynb  
-5. 05_statistical_distributions.ipynb  
-6. 06_sampling_and_estimation.ipynb  
-7. 07_hypothesis_testing.ipynb  
-9. 08_correlation_and_regression.ipynb  
-9. 09_statistics_with_python.ipynb  
-10. notebooks_model.md  
-
-Cada notebook contém:
-- exemplos práticos  
-- visualizações  
-- exercícios resolvidos  
-- anotações complementares  
-
-<br><br>
-## 🏗️ 4. Estrutura do Projeto
-
-```text
-statistics           # statistics-for-data-science/
+~~~text
+statistics/
 │
 ├── README.md
 ├── requirements.txt
 ├── config.py
-├── .gitignore.py
 │
 ├── data/
-│   ├── raw/          # dados originais
-│   └── processed/    # dados transformados
+│   ├── raw/                        # dados originais (não versionados)
+│   └── processed/                  # dados transformados
 │
 ├── docs/
-│   └── statistics_book.md
+│   └── statistics_book.md          # Companion Book (autoral)
 │
 ├── notebooks/
-│   ├── 01_intro_statistics.ipynb
-│   ├── 02_data_types_and_distributions.ipynb
-│   ├── 03_central_tendency_and_variability.ipynb
-│   ├── 04_probability.ipynb
-│   ├── 05_statistical_distributions.ipynb
-│   ├── 06_sampling_and_estimation.ipynb
-│   ├── 07_hypothesis_testing.ipynb
-│   ├── 08_correlation_and_regression.ipynb
-│   ├── 09_statistics_with_python.ipynb
-│   └── notebooks_model.md
-│
-├── scripts/
-│   ├── utils.py
-│   └── write_version.py
+│   ├── 1_reviewIntroduction.ipynb                  # (Ignorado - IBM)
+│   ├── 2_descriptiveStatistics.ipynb               # (Ignorado - IBM)
+│   ├── 3_visualizingData.ipynb                     # (Ignorado - IBM)
+│   ├── 4_introductionToProbabilityDistribution.ipynb   # (Ignorado - IBM)
+│   ├── 5_hypothesisTesting.ipynb                   # (Ignorado - IBM)
+│   ├── 6_regressionAnalysis.ipynb                  # (Ignorado - IBM)
+│   ├── 7_finalExamReview.ipynb                     # ✔ Autoral
+│   ├── 8_appliedStatisticsForDataScience.ipynb     # ✔ Autoral
+│   └── laboratory/
 │
 ├── outputs/
 │   ├── figures/
 │   └── reports/
 │
+├── scripts/
+│   ├── utils.py
+│   └── write_version.py
+│
 └── models/
-```
+~~~
+
+<br><br>
+## 📚 3. Companion Book
+
+O Companion Book está em:
+
+~~~text
+docs/statistics_book.md
+~~~
+
+Ele contém:
+
+- explicações teóricas  
+- fluxogramas  
+- árvores conceituais  
+- exemplos sintéticos  
+- capítulos organizados conforme o curso  
+- preparação para o exame final  
+
+> O conteúdo é **100% autoral**.
+
+
+<br><br>
+## 🧪 4. Notebooks Autorais
+
+#### ✔ `7_finalExamReview.ipynb`  
+Revisão completa para o exame final, com:
+
+- síntese dos conceitos  
+- exemplos aplicados  
+- exercícios de revisão  
+- preparação para o projeto final  
+<br>
+#### ✔ `8_appliedStatisticsForDataScience.ipynb`  
+Integração prática de estatística com:
+
+- EDA  
+- testes de hipótese  
+- regressão  
+- visualização  
+- raciocínio estatístico aplicado  
+
+> Ambos são **autorais** e podem ser publicados.
+
 
 <br><br>
 ## 🧠 5. Processo de Estudo
 
-O fluxo recomendado:
-1. Utilizar o `statistics_book.md` para acompanhamento do curso
-2. Ler o conteúdo teórico do capítulo  
-3. Executar o notebook correspondente  
-4. Reproduzir e expandir os exemplos  
-5. Criar visualizações adicionais  
-6. Registrar aprendizados no Companion Book  
-7. Versionar o progresso com commits claros  
+Fluxo recomendado:
+
+1. Ler o capítulo correspondente no Companion Book  
+2. Executar o notebook autoral  
+3. Criar visualizações adicionais  
+4. Registrar aprendizados  
+5. Versionar o progresso com commits claros  
 
 Esse processo garante:
+
 - profundidade conceitual  
 - prática consistente  
 - documentação contínua  
 - evolução profissional  
 
+
 <br><br>
 ## 🧩 6. Tecnologias Utilizadas
 
-- Python  
-- Pandas  
-- NumPy  
-- SciPy  
-- Statsmodels  
-- Matplotlib / Seaborn  
-- Jupyter Notebook  
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Array%20Computing-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![SciPy](https://img.shields.io/badge/SciPy-Statistics%20%26%20Math-lightgrey)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-Statistical%20Modeling-yellow)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+
+Ferramentas utilizadas ao longo do projeto:
+
+- **Python** para análise e experimentação  
+- **NumPy** para operações numéricas  
+- **Pandas** para manipulação de dados  
+- **SciPy** para estatística aplicada  
+- **Statsmodels** para regressão e testes estatísticos  
+- **Matplotlib** e **Seaborn** para visualização  
+- **Jupyter Notebook** como ambiente interativo  
 
 
 <br><br>
 ## 🧪 7. Como Reproduzir o Ambiente
 
-~~~Python
-pip install -r requirements.txt  
-jupyter notebook  
+~~~bash
+pip install -r requirements.txt
+jupyter notebook
 ~~~
 
 
 <br><br>
-## 🚀 8. Próximos Passos
-
-- Criar os primeiros notebooks  
-- Iniciar o Companion Book  
-- Adicionar visualizações estatísticas  
-- Consolidar exemplos para portfólio  
-
-
-<br><br>
-## 🤝 9. Autor
+## 🤝 8. Autor
 
 Moacir  
 Estudo contínuo em Estatística, Machine Learning e Ciência de Dados.  
-Este repositório documenta sua jornada técnica e serve como portfólio profissional.
+Este repositório documenta minha jornada técnica e serve como portfólio profissional.
+
 
 <br><br>
-## 🗺️ 10. Roadmap do Curso
+## 🗺️ 09. Roadmap do Curso
 
 Este roadmap organiza o progresso do curso **Statistics for Data Science with Python — IBM** em etapas claras, permitindo acompanhar a evolução do aprendizado de forma estruturada e consistente.
 
+<br>
 
 ### 📌 **Fase 1 — Preparação do Ambiente**
 - [x] Criar estrutura inicial do projeto  
 - [x] Configurar `requirements.txt`  
 - [x] Criar `config.py`  
-- [x] Configurar CI  
-- [x] Configurar CD (ativado apenas por tags)  
-- [ ] Criar template base para notebooks  
-- [ ] Criar índice inicial no `statistics_book.md`  
+- [x] Configurar CI/CD (ativado apenas por tags)  
+- [x] Criar template base para notebooks  
+- [x] Definir política de conteúdo (IBM vs Autoral)  
 
 <br>
 
+### 📌 **Fase 2 — Capítulo 1 + Notebook 1 (Ignorado)**
+**Tema:** Review Introduction (Introdução à Estatística)   
+**Objetivo:** Construir a base conceitual do curso.
 
-### 📌 **Fase 2 — Fundamentos de Estatística**
-**Objetivo:** Construir a base teórica e prática essencial.
-
-- [ ] Notebook 01 — Introdução à Estatística  
-- [ ] Registrar conceitos no Companion Book  
-- [ ] Criar exemplos próprios além dos do curso  
-
-<br>
-
-
-### 📌 **Fase 3 — Tipos de Dados e Distribuições**
-- [ ] Notebook 02 — Tipos de Dados e Distribuições  
-- [ ] Criar gráficos adicionais (histogramas, KDE, boxplots)  
-- [ ] Documentar no Companion Book  
-- [ ] Criar exemplos com datasets reais (opcional)  
+- [x] Estudar notebook 1 (local, não versionado)  
+- [x] Criar capítulo 1 no Companion Book  
+- [x] Registrar conceitos fundamentais  
+- [ ] Criar exemplos sintéticos adicionais  
 
 <br>
 
-### 📌 **Fase 4 — Medidas de Tendência Central e Dispersão**
-- [ ] Notebook 03 — Média, Mediana, Moda, Variância, Desvio  
+### 📌 **Fase 3 — Capítulo 2 + Notebook 2 (IGNORADO)**
+**Tema: Descriptive Statistics (Estatística Descritiva)**
+
+- [x] Estudar notebook 2  
+- [x] Criar capítulo 2 no Companion Book  
+- [ ] Criar gráficos adicionais (histogramas, boxplots, KDE)  
+- [ ] Criar exemplos sintéticos próprios  
+
+<br>
+
+### 📌 **Fase 4 — Capítulo 3 + Notebook 3 (IGNORADO)**
+**Tema: Visualizing Data (Visualização de Dados)**
+
+- [x] Estudar notebook 3  
+- [x] Criar capítulo 3 no Companion Book  
 - [ ] Criar visualizações comparativas  
-- [ ] Criar seção no Companion Book com fórmulas e interpretações  
 - [ ] Criar exercícios extras  
 
 <br>
 
-### 📌 **Fase 5 — Probabilidade**
-- [ ] Notebook 04 — Probabilidade  
-- [ ] Criar exemplos com eventos independentes e dependentes  
-- [ ] Documentar propriedades no Companion Book  
+### 📌 **Fase 5 — Capítulo 4 + Notebook 4 (IGNORADO)**
+**Tema: Probability Distribution (Distribuições e Probabilidade)**
+
+- [x] Estudar notebook 4  
+- [x] Criar capítulo 4 no Companion Book  
 - [ ] Criar simulações com NumPy  
+- [ ] Criar exemplos sintéticos de distribuições  
 
 <br>
 
-### 📌 **Fase 6 — Distribuições Estatísticas**
-- [ ] Notebook 05 — Distribuições (Normal, Binomial, Poisson, etc.)  
-- [ ] Criar gráficos comparativos  
-- [ ] Criar simulações com `scipy.stats`  
-- [ ] Documentar cada distribuição no Companion Book  
+### 📌 **Fase 6 — Capítulo 5 + Notebook 5 (IGNORADO)**
+**Tema: Hypothesis Testing (Testes de Hipótese)**
 
-<br>
-
-### 📌 **Fase 7 — Amostragem e Estimação**
-- [ ] Notebook 06 — Amostragem e Estimadores  
-- [ ] Criar exemplos com diferentes tamanhos de amostra  
-- [ ] Documentar conceitos de viés e variância  
+- [x] Estudar notebook 5  
+- [x] Criar capítulo 5 no Companion Book  
+- [ ] Criar fluxograma de decisão  
 - [ ] Criar exercícios extras  
 
 <br>
 
-### 📌 **Fase 8 — Testes de Hipótese**
-- [ ] Notebook 07 — Testes de Hipótese  
-- [ ] Criar exemplos com t-test, z-test, chi-square  
-- [ ] Criar fluxograma de decisão no Companion Book  
-- [ ] Criar exercícios extras  
+### 📌 **Fase 7 — Capítulo 6 + Notebook 6 (IGNORADO)**
+**Tema: Regression Analysis (Regressão Linear)**
+
+- [x] Estudar notebook 6  
+- [x] Criar capítulo 6 no Companion Book  
+- [ ] Criar exemplos sintéticos de regressão  
+- [ ] Criar visualizações com linha de tendência  
 
 <br>
 
-### 📌 **Fase 9 — Correlação e Regressão**
-- [ ] Notebook 08 — Correlação e Regressão  
-- [ ] Criar gráficos de dispersão com linhas de tendência  
-- [ ] Documentar coeficientes e interpretações  
-- [ ] Criar exemplos com datasets reais  
+### 📌 **Fase 8 — Capítulo 7 + Notebook 7 (AUTORAL)**
+**Tema: Review Final Exam (Revisão para o Exame Final)**
+
+- [x] Criar notebook 7 (`7_finalExamReview.ipynb`)  
+- [x] Criar capítulo 7 no Companion Book  
+- [x] Criar exemplos sintéticos para revisão  
+- [ ] Criar simulado extra (opcional)  
 
 <br>
 
-### 📌 **Fase 10 — Estatística Aplicada com Python**
-- [ ] Notebook 09 — Estatística Aplicada  
-- [ ] Criar estudo de caso próprio  
+### 📌 **Fase 9 — Capítulo 8 + Notebook 8 (AUTORAL)**
+**Tema: Applied Statistics (Estatística Aplicada para Data Science)**
+
+- [x] Criar notebook 8 (`8_appliedStatisticsForDataScience.ipynb`)  
+- [x] Criar capítulo 8 no Companion Book  
+- [x] Integrar EDA + testes + regressão  
+- [ ] Criar estudo de caso adicional (opcional)  
+
+<br>
+
+### 📌 **Fase 10 — Projeto Final (Boston Housing)**
+**Tema:** Aplicação completa da estatística**
+
+- [ ] Executar o notebook oficial do projeto (local)  
 - [ ] Criar relatório em `outputs/reports/`  
-- [ ] Documentar conclusões no Companion Book  
+- [ ] Registrar conclusões no Companion Book  
+- [ ] Preparar versão para submissão (AI-Graded ou Peer-Graded)  
 
-<br>
+---
 
 ### 📌 **Fase 11 — Consolidação e Portfólio**
-- [ ] Revisar todos os notebooks  
-- [ ] Revisar o Companion Book  
+- [ ] Revisar todos os notebooks autorais  
+- [ ] Revisar o Companion Book completo  
 - [ ] Criar README final com badges e links  
 - [ ] Criar release versionada (ex.: `v1.0.0`)  
 - [ ] Publicar no GitHub como projeto de portfólio  
 
-<br>
+---
 
 ### 📌 **Fase 12 — Extensões Futuras (Opcional)**
 - [ ] Criar dashboards com Plotly  
 - [ ] Criar scripts automatizados de análise  
 - [ ] Integrar com datasets externos  
 - [ ] Criar mini-projetos estatísticos  
+- [ ] Criar versão em inglês do Companion Book  
+
 
 <br><br>
