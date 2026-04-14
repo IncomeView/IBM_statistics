@@ -1133,15 +1133,14 @@ Inferência estatística
 Modelagem
 ~~~
 
-### Por que isso importa agora?
+### Por que isso importa agora? 
 
-Porque a visualização:
-
-- confirma padrões observados nas estatísticas  
-- revela padrões que as estatísticas não mostram  
-- permite comparar grupos rapidamente  
-- ajuda a detectar erros e outliers  
-- prepara o terreno para testes e modelos  
+- Porque a visualização:
+  - confirma padrões observados nas estatísticas  
+  - revela padrões que as estatísticas não mostram  
+  - permite comparar grupos rapidamente  
+  - ajuda a detectar erros e outliers  
+  - prepara o terreno para testes e modelos  
 
 ### Como o conteúdo se encaixa no curso
 
@@ -1161,7 +1160,7 @@ A visualização é o elo entre **resumo numérico** e **interpretação visual*
 <details>
 <br>
 
-A visualização de dados responde a perguntas que números sozinhos não conseguem responder:
+> A visualização de dados responde a perguntas que números sozinhos não conseguem responder:
 
 ### **1. Como os dados estão distribuídos?**
 - histogramas  
@@ -1186,25 +1185,25 @@ A visualização de dados responde a perguntas que números sozinhos não conseg
 
 ### Exemplos reais do cotidiano
 
-#### 🏫 Educação
-- comparar desempenho entre turmas  
-- visualizar notas ao longo do tempo  
+- #### 🏫 Educação
+  - comparar desempenho entre turmas  
+  - visualizar notas ao longo do tempo  
 
-#### 🏥 Saúde
-- distribuição de idades de pacientes  
-- relação entre idade e pressão arterial  
+- #### 🏥 Saúde
+  - distribuição de idades de pacientes  
+  - relação entre idade e pressão arterial  
 
-#### 🏠 Economia
-- evolução de preços de imóveis  
-- comparação de salários por setor  
+- #### 🏠 Economia
+  - evolução de preços de imóveis  
+  - comparação de salários por setor  
 
-#### 🚗 Transporte
-- distribuição de tempos de viagem  
-- relação entre velocidade e consumo  
+- #### 🚗 Transporte
+  - distribuição de tempos de viagem  
+  - relação entre velocidade e consumo  
 
-#### 🎮 Esportes
-- consistência de desempenho  
-- comparação entre atletas  
+- #### 🎮 Esportes
+  - consistência de desempenho  
+  - comparação entre atletas  
 
 ---
 
@@ -1214,16 +1213,16 @@ A visualização de dados responde a perguntas que números sozinhos não conseg
 Início
   ↓
 Qual é o tipo de variável?
-  ↓
-Categórica? → Gráfico de barras / pizza
-  ↓
-Numérica?
-  ↓
-Quero ver distribuição? → Histograma / Boxplot
-  ↓
-Quero ver relação entre variáveis? → Scatterplot
-  ↓
-Quero comparar grupos? → Boxplot / Barras agrupadas
+        ↓
+    Categórica? → Gráfico de barras / pizza
+        ↓
+    Numérica?
+            ↓
+        Quero ver distribuição? → Histograma / Boxplot
+            ↓
+        Quero ver relação entre variáveis? → Scatterplot
+            ↓
+        Quero comparar grupos? → Boxplot / Barras agrupadas
 ~~~
 
 ---
@@ -1268,23 +1267,22 @@ Visualização de Dados
 <br>
 
 A visualização de dados é o processo de transformar números em formas visuais que revelam padrões, tendências e relações que seriam invisíveis em tabelas.  
-Ela é a ferramenta que permite ao analista **ver** o comportamento dos dados.
+Ela é a ferramenta que permite ao analista **`ver`** o comportamento dos dados.
 
 ---
 
 ### 4.1 Explicação intuitiva
 
 Imagine tentar entender o trânsito de uma cidade olhando apenas para uma tabela com milhares de números representando velocidades.  
-Agora imagine ver um mapa de calor mostrando congestionamentos em vermelho e vias livres em verde.
-
+Agora imagine ver um mapa de calor mostrando congestionamentos em vermelho e vias livres em verde.  
 A diferença é imediata.
 
-A visualização:
+- A visualização:
 
-- reduz complexidade  
-- revela padrões  
-- facilita comparações  
-- comunica ideias rapidamente  
+  - reduz complexidade  
+  - revela padrões  
+  - facilita comparações  
+  - comunica ideias rapidamente  
 
 ---
 
@@ -1293,29 +1291,29 @@ A visualização:
 A visualização de dados é composta por três pilares:
 
 #### **1. Representação gráfica**
-Transformar dados em elementos visuais:
 
-- pontos  
-- barras  
-- linhas  
-- caixas  
-- áreas  
+- Transformar dados em elementos visuais:
+  - pontos  
+  - barras  
+  - linhas  
+  - caixas  
+  - áreas  
 
 #### **2. Codificação visual**
-Usar atributos como:
 
-- posição  
-- cor  
-- tamanho  
-- forma  
+- Usar atributos como:
+  - posição  
+  - cor  
+  - tamanho  
+  - forma  
 
 #### **3. Interpretação**
-Extrair significado:
 
-- tendências  
-- agrupamentos  
-- outliers  
-- relações  
+- Extrair significado:
+  - tendências  
+  - agrupamentos  
+  - outliers  
+  - relações  
 
 ---
 
@@ -1346,24 +1344,24 @@ Extrair significado:
 Início
   ↓
 Qual é o tipo de variável?
-  ↓
-Categórica?
-  ↓
-Sim → Barras / Colunas / Pizza
-  ↓
-Não → Numérica
-  ↓
-Quero ver distribuição?
-  ↓
-Sim → Histograma / Densidade / Boxplot
-  ↓
-Não → Quero ver relação entre variáveis?
-  ↓
-Sim → Scatterplot / Bubble Chart
-  ↓
-Não → Comparar grupos?
-  ↓
-Sim → Boxplot / Barras agrupadas
+    ↓
+  Categórica?
+      ↓
+    Sim → Barras / Colunas / Pizza
+      ↓
+    Não → Numérica
+        ↓
+      Quero ver distribuição?
+          ↓
+        Sim → Histograma / Densidade / Boxplot
+          ↓
+        Não → Quero ver relação entre variáveis?
+            ↓
+          Sim → Scatterplot / Bubble Chart
+            ↓
+            Não → Comparar grupos?
+                ↓
+              Sim → Boxplot / Barras agrupadas
 ~~~
 
 ---
@@ -1410,12 +1408,12 @@ Visualização de Dados
 
 ~~~text
 Tenho categorias?
-  ↓
-Sim → Gráfico de barras
-  ↓
-Não → Tenho valores contínuos?
-  ↓
-Sim → Histograma
+    ↓
+  Sim → Gráfico de barras
+    ↓
+  Não → Tenho valores contínuos?
+      ↓
+    Sim → Histograma
 ~~~
 
 ---
@@ -1537,25 +1535,23 @@ Pontos isolados → Outliers
 <details>
 <br>
 
-A visualização de dados se conecta diretamente ao que já aprendemos:
+> A visualização de dados se conecta diretamente ao que já aprendemos:
 
 ---
 
 ### 6.1 Como complementa o Capítulo 2
 
-A estatística descritiva fornece:
+- A estatística descritiva fornece:
+  - média  
+  - mediana  
+  - variância  
+  - quartis  
+  - IQR  
 
-- média  
-- mediana  
-- variância  
-- quartis  
-- IQR  
-
-A visualização transforma esses valores em:
-
-- histogramas  
-- boxplots  
-- densidades  
+- A visualização transforma esses valores em:
+  - histogramas  
+  - boxplots  
+  - densidades  
 
 Ou seja:
 
@@ -1567,12 +1563,12 @@ O Capítulo 3 mostra.**
 ### 6.2 Como prepara para o próximo módulo
 
 O próximo capítulo aborda **distribuições de probabilidade**.  
-A visualização é essencial para:
 
-- comparar dados reais com distribuições teóricas  
-- identificar normalidade  
-- observar caudas e assimetrias  
-- validar suposições  
+- A visualização é essencial para:
+  - comparar dados reais com distribuições teóricas  
+  - identificar normalidade  
+  - observar caudas e assimetrias  
+  - validar suposições  
 
 ---
 
@@ -1632,86 +1628,61 @@ Nesta seção, organizamos boas práticas, limitações, armadilhas e interpreta
 
 ### 7.1 Boas práticas
 
-#### ✔ Escolha o gráfico adequado ao tipo de variável  
-- Categórica → barras, colunas, pizza  
-- Numérica → histograma, boxplot, densidade  
-- Relação entre variáveis → scatterplot  
+- #### ✔ Escolha o gráfico adequado ao tipo de variável  
+  - Categórica → barras, colunas, pizza  
+  - Numérica → histograma, boxplot, densidade  
+  - Relação entre variáveis → scatterplot  
 
-#### ✔ Sempre adicione título, rótulos e legenda  
-Um gráfico sem rótulos é como um mapa sem nomes de ruas.
+- #### ✔ Sempre adicione título, rótulos e legenda  
+  -  Um gráfico sem rótulos é como um mapa sem nomes de ruas.
 
-#### ✔ Use cores com propósito  
-- Diferenciar grupos  
-- Destacar categorias  
-- Evitar excesso de cores  
+- #### ✔ Use cores com propósito  
+  - Diferenciar grupos  
+  - Destacar categorias  
+  - Evitar excesso de cores  
 
-#### ✔ Verifique se o gráfico comunica a mensagem  
-Pergunte-se:  
-> “Alguém que nunca viu os dados entenderia o que estou mostrando?”
+- #### ✔ Verifique se o gráfico comunica a mensagem  
+    - Pergunte-se:  
+       > “Alguém que nunca viu os dados entenderia o que estou mostrando?”
 
-#### ✔ Use FacetGrid para múltiplas dimensões  
-Excelente para comparar subgrupos.
+- #### ✔ Use FacetGrid para múltiplas dimensões  
+  - Excelente para comparar subgrupos.
 
-#### ✔ Combine estatística descritiva + visualização  
-Exemplo:  
-- média + histograma  
-- quartis + boxplot  
+- #### ✔ Combine estatística descritiva + visualização  
+  - Exemplo:  
+    - média + histograma  
+    - quartis + boxplot  
 
 ---
 
 ### 7.2 Limitações
 
-#### ⚠ Visualização não substitui estatística  
-Um gráfico pode sugerir padrões, mas não confirma hipóteses.
+- **⚠ Visualização não substitui estatística:** Um gráfico pode sugerir padrões, mas não confirma hipóteses.
+- **⚠ Pode induzir interpretações erradas:** Escalas mal escolhidas distorcem percepções.
+- **⚠ Gráficos de pizza são limitados:** Difíceis de comparar quando há muitas categorias.
+- **⚠ Scatterplots podem esconder padrões:** Quando há muitos pontos, ocorre overplotting.
+- **⚠ Visualização depende de contexto:** Sem explicação, o gráfico perde significado.
 
-#### ⚠ Pode induzir interpretações erradas  
-Escalas mal escolhidas distorcem percepções.
-
-#### ⚠ Gráficos de pizza são limitados  
-Difíceis de comparar quando há muitas categorias.
-
-#### ⚠ Scatterplots podem esconder padrões  
-Quando há muitos pontos, ocorre overplotting.
-
-#### ⚠ Visualização depende de contexto  
-Sem explicação, o gráfico perde significado.
-
----
+<br>
 
 ### 7.3 Armadilhas comuns
 
-#### ❗ Usar gráfico de barras para dados contínuos  
-Histograma é a escolha correta.
+- **❗ Usar gráfico de barras para dados contínuos:** Histograma é a escolha correta.
+- **❗ Usar pizza para muitas categorias:**  Fica ilegível.
+- **❗ Não padronizar escalas ao comparar gráficos:**  Pode induzir conclusões erradas.
+- **❗ Usar cores sem contraste:**  Prejudica acessibilidade.
+- **❗ Interpretar correlação visual como causalidade:**  Pontos próximos não significam causa.
 
-#### ❗ Usar pizza para muitas categorias  
-Fica ilegível.
-
-#### ❗ Não padronizar escalas ao comparar gráficos  
-Pode induzir conclusões erradas.
-
-#### ❗ Usar cores sem contraste  
-Prejudica acessibilidade.
-
-#### ❗ Interpretar correlação visual como causalidade  
-Pontos próximos não significam causa.
-
----
+<br>
 
 ### 7.4 Interpretações equivocadas
 
-#### ❌ “O gráfico mostra a verdade”  
-Gráficos mostram **representações**, não verdades absolutas.
+- **❌ “O gráfico mostra a verdade”:**  Gráficos mostram **representações**, não verdades absolutas.
+- **❌ “Se a linha sobe, algo melhorou”:**  Depende da variável — pode ser custo, erro, risco.
+- **❌ “Dois grupos parecem diferentes, logo são diferentes”:**  Diferença visual ≠ diferença estatística.
+- **❌ “Distribuição parece normal, então é normal”:**  Apenas testes formais confirmam normalidade.
 
-#### ❌ “Se a linha sobe, algo melhorou”  
-Depende da variável — pode ser custo, erro, risco.
-
-#### ❌ “Dois grupos parecem diferentes, logo são diferentes”  
-Diferença visual ≠ diferença estatística.
-
-#### ❌ “Distribuição parece normal, então é normal”  
-Apenas testes formais confirmam normalidade.
-
----
+<br>
 
 ### 7.5 Fluxograma — Evitando erros comuns
 
@@ -1719,17 +1690,17 @@ Apenas testes formais confirmam normalidade.
 Início
   ↓
 Escolhi o gráfico certo?
-  ↓
-Sim → Adicione rótulos e título
-  ↓
-Verifique escala e cores
-  ↓
-Compare com estatísticas descritivas
-  ↓
-O gráfico comunica claramente?
-  ↓
-Sim → Finalizar
-Não → Ajustar e revisar
+    ↓
+  Sim → Adicione rótulos e título
+      ↓
+    Verifique escala e cores
+      ↓
+    Compare com estatísticas descritivas
+      ↓
+    O gráfico comunica claramente?
+        ↓
+      Sim → Finalizar
+      Não → Ajustar e revisar
 ~~~
 
 ---
@@ -1761,68 +1732,43 @@ Aqui estão as definições essenciais para consulta rápida.
 
 ### 8.1 Tipos de gráficos
 
-#### **Gráfico de barras**  
-Compara categorias.
+- **Gráfico de barras:**  Compara categorias.
+- **Histograma:**  Mostra distribuição de dados contínuos.
+- **Boxplot:**  Mostra mediana, quartis e outliers.
+- **Scatterplot: **  Mostra relação entre duas variáveis numéricas.
+- **FacetGrid:**  Cria múltiplos gráficos para subgrupos.
+- **Gráfico de pizza:**  Mostra composição percentual.
 
-#### **Histograma**  
-Mostra distribuição de dados contínuos.
-
-#### **Boxplot**  
-Mostra mediana, quartis e outliers.
-
-#### **Scatterplot**  
-Mostra relação entre duas variáveis numéricas.
-
-#### **FacetGrid**  
-Cria múltiplos gráficos para subgrupos.
-
-#### **Gráfico de pizza**  
-Mostra composição percentual.
-
----
+<br>
 
 ### 8.2 Conceitos visuais
 
-#### **Eixo X / Eixo Y**  
-Dimensões principais do gráfico.
+- **Eixo X / Eixo Y:**  Dimensões principais do gráfico.
+- **Hue (cor):**  Codificação visual para categorias.
+- **Bins:**  Número de divisões em um histograma.
+- **Outlier:**  Valor extremo fora do padrão.
 
-#### **Hue (cor)**  
-Codificação visual para categorias.
-
-#### **Bins**  
-Número de divisões em um histograma.
-
-#### **Outlier**  
-Valor extremo fora do padrão.
-
----
+<br>
 
 ### 8.3 Estatística aplicada à visualização
 
-#### **Distribuição**  
-Forma como os dados se espalham.
+- **Distribuição:**  Forma como os dados se espalham.
+- **Densidade:**  Estimativa suave da distribuição.
+- **Quartis:**  Divisões em quatro partes iguais.
+- **IQR:**  Intervalo entre Q1 e Q3.
 
-#### **Densidade**  
-Estimativa suave da distribuição.
-
-#### **Quartis**  
-Divisões em quatro partes iguais.
-
-#### **IQR**  
-Intervalo entre Q1 e Q3.
-
----
+<br>
 
 ### 8.4 Fluxograma — Como navegar no glossário
 
 ~~~text
 Preciso entender um gráfico?
-  ↓
-É categórico? → Barras / Pizza
-  ↓
-É numérico? → Histograma / Boxplot
-  ↓
-É relação? → Scatterplot
+    ↓
+  É categórico? → Barras / Pizza
+    ↓
+  É numérico? → Histograma / Boxplot
+    ↓
+  É relação? → Scatterplot
 ~~~
 
 </details>
@@ -1832,40 +1778,38 @@ Preciso entender um gráfico?
 <details>
 <br>
 
-Esta seção resume os pontos-chave do capítulo.
+> Esta seção resume os pontos-chave do capítulo.
 
 ---
 
-### 9.1 Tipos de gráficos
+- ### 9.1 Tipos de gráficos
+  - Barras → categorias  
+  - Histograma → distribuição  
+  - Boxplot → quartis e outliers  
+  - Scatterplot → relação  
+  - FacetGrid → múltiplas dimensões  
 
-- Barras → categorias  
-- Histograma → distribuição  
-- Boxplot → quartis e outliers  
-- Scatterplot → relação  
-- FacetGrid → múltiplas dimensões  
+<br>
 
----
+- ### 9.2 Boas práticas
+  - Adicione rótulos e título  
+  - Use cores com propósito  
+  - Escolha o gráfico certo  
+  - Compare com estatísticas descritivas  
 
-### 9.2 Boas práticas
+<br>
 
-- Adicione rótulos e título  
-- Use cores com propósito  
-- Escolha o gráfico certo  
-- Compare com estatísticas descritivas  
+- ### 9.3 Fluxograma — Resumo operacional
 
----
-
-### 9.3 Fluxograma — Resumo operacional
-
-~~~text
-1. Identifique o tipo de variável
-2. Escolha o gráfico adequado
-3. Adicione rótulos, título e legenda
-4. Ajuste cores e escalas
-5. Compare com estatísticas descritivas
-6. Interprete padrões
-7. Refine e comunique
-~~~
+  ~~~text
+  1. Identifique o tipo de variável
+  2. Escolha o gráfico adequado
+  3. Adicione rótulos, título e legenda
+  4. Ajuste cores e escalas
+  5. Compare com estatísticas descritivas
+  6. Interprete padrões
+  7. Refine e comunique
+  ~~~
 
 </details>
 <br>
@@ -4773,7 +4717,7 @@ A partir daqui, você está pronto para avançar para:
 <br>
 
 # Capítulo 7 — Estatística Aplicada em Projeto Real (Boston Housing)
-</details>
+<details>
 
 ## 1. Introdução
 <details>
@@ -5137,7 +5081,7 @@ No próximo capítulo, aprofundaremos o **framework completo de estatística apl
 
 
 # Capítulo 8 — Estatística Aplicada para Data Science
-</details>
+<details>
 
 ## 1. Introdução
 <details>
@@ -6307,7 +6251,7 @@ Este capítulo fecha o ciclo estatístico e abre o caminho para a modelagem avan
 <br>
 
 # Resumo Final — Statistics for Data Science with Python
-</details>
+<details>
 
 ## 1. Visão Geral do Livro
 <details>
