@@ -1726,7 +1726,7 @@ Visualização
 <details>
 <br>
 
-Aqui estão as definições essenciais para consulta rápida.
+> Aqui estão as definições essenciais para consulta rápida.
 
 ---
 
@@ -1735,7 +1735,7 @@ Aqui estão as definições essenciais para consulta rápida.
 - **Gráfico de barras:**  Compara categorias.
 - **Histograma:**  Mostra distribuição de dados contínuos.
 - **Boxplot:**  Mostra mediana, quartis e outliers.
-- **Scatterplot: **  Mostra relação entre duas variáveis numéricas.
+- **Scatterplot:**  Mostra relação entre duas variáveis numéricas.
 - **FacetGrid:**  Cria múltiplos gráficos para subgrupos.
 - **Gráfico de pizza:**  Mostra composição percentual.
 
@@ -1818,34 +1818,32 @@ Preciso entender um gráfico?
 <details>
 <br>
 
-A visualização de dados é uma das ferramentas mais poderosas da análise estatística.  
-Ela permite:
+> A visualização de dados é uma das ferramentas mais poderosas da análise estatística.  
 
-- ver padrões  
-- comparar grupos  
-- identificar outliers  
-- comunicar resultados  
-- validar hipóteses  
+- Ela permite:
+  - ver padrões  
+  - comparar grupos  
+  - identificar outliers  
+  - comunicar resultados  
+  - validar hipóteses  
 
 Combinada com estatística descritiva, ela forma a base da análise exploratória.
 
 ### 🔗 Preparação para o notebook
 
-O notebook do módulo 3 permitirá:
-
-- criar gráficos com Matplotlib e Seaborn  
-- comparar categorias  
-- visualizar distribuições  
-- explorar relações entre variáveis  
-- usar FacetGrid para múltiplas dimensões  
+- O notebook do módulo 3 permitirá:
+  - criar gráficos com Matplotlib e Seaborn  
+  - comparar categorias  
+  - visualizar distribuições  
+  - explorar relações entre variáveis  
+  - usar FacetGrid para múltiplas dimensões  
 
 ### 🎯 Gancho para o próximo capítulo
 
-O próximo capítulo abordará **distribuições de probabilidade**, onde você aprenderá:
-
-- como distribuições teóricas funcionam  
-- como comparar dados reais com distribuições  
-- como interpretar curvas, caudas e simetria  
+- O próximo capítulo abordará **distribuições de probabilidade**, onde você aprenderá:
+  - como distribuições teóricas funcionam  
+  - como comparar dados reais com distribuições  
+  - como interpretar curvas, caudas e simetria  
 
 A visualização é o elo entre dados brutos e compreensão estatística profunda.
 
