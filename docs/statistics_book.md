@@ -1859,55 +1859,52 @@ A visualização é o elo entre dados brutos e compreensão estatística profund
 <br>
 
 As distribuições de probabilidade são o coração da estatística inferencial.  
-Elas permitem responder perguntas como:
 
-- “Qual é a chance de um evento ocorrer?”  
-- “Quão raro é um valor observado?”  
-- “Meus dados seguem um padrão conhecido?”  
-- “Posso comparar minha amostra com uma população?”  
+- Elas permitem responder perguntas como:
+  - Qual é a chance de um evento ocorrer?  
+  - Quão raro é um valor observado?  
+  - Meus dados seguem um padrão conhecido?  
+  - Posso comparar minha amostra com uma população?  
 
-No Módulo 4 do curso *IBM Statistics for Data Science with Python*, os instrutores introduzem:
-
-- variáveis aleatórias  
-- espaço amostral  
-- distribuições discretas e contínuas  
-- distribuição normal  
-- distribuição t de Student  
-- probabilidade acumulada (CDF)  
-- padronização (pontuação Z)  
+- No Módulo 4 do curso *IBM Statistics for Data Science with Python*, os instrutores introduzem:
+  - variáveis aleatórias  
+  - espaço amostral  
+  - distribuições discretas e contínuas  
+  - distribuição normal  
+  - distribuição t de Student  
+  - probabilidade acumulada (CDF)  
+  - padronização (pontuação Z)  
 
 Este capítulo organiza esses conceitos em uma estrutura clara, visual e aplicada.
 
 ### 🎯 Motivação
 
-Distribuições de probabilidade são essenciais para:
-
-- testes de hipótese  
-- intervalos de confiança  
-- regressão  
-- machine learning  
-- análise de risco  
-- previsão  
+- Distribuições de probabilidade são essenciais para:
+  - testes de hipótese  
+  - intervalos de confiança  
+  - regressão  
+  - machine learning  
+  - análise de risco  
+  - previsão  
 
 Sem distribuições, não existe inferência estatística.
 
 ### 🔗 Conexão com o capítulo anterior
 
 No Capítulo 3, aprendemos a visualizar dados.  
-Agora, vamos entender **por que** certas formas aparecem nos gráficos:
 
-- por que histogramas parecem sinos  
-- por que algumas variáveis têm caudas longas  
-- por que médias variam de amostra para amostra  
+- Agora, vamos entender **por que** certas formas aparecem nos gráficos:
+  - por que histogramas parecem sinos  
+  - por que algumas variáveis têm caudas longas  
+  - por que médias variam de amostra para amostra  
 
 ### 🎥 Relação com o vídeo correspondente
 
-O vídeo “Números aleatórios e distribuições de probabilidade” mostra:
-
-- como eventos aleatórios geram distribuições  
-- o exemplo clássico dos dois dados (36 resultados possíveis)  
-- como probabilidades se acumulam  
-- como histogramas podem ser comparados com distribuições teóricas  
+- O vídeo “Números aleatórios e distribuições de probabilidade” mostra:
+  - como eventos aleatórios geram distribuições  
+  - o exemplo clássico dos dois dados (36 resultados possíveis)  
+  - como probabilidades se acumulam  
+  - como histogramas podem ser comparados com distribuições teóricas  
 
 Este capítulo transforma essas ideias em raciocínio estatístico sólido.
 
@@ -1920,14 +1917,9 @@ Este capítulo transforma essas ideias em raciocínio estatístico sólido.
 
 Até agora, construímos:
 
-### ✔ Capítulo 1 — Fundamentos  
-O que é estatística e por que ela importa.
-
-### ✔ Capítulo 2 — Estatística descritiva  
-Como resumir dados.
-
-### ✔ Capítulo 3 — Visualização  
-Como ver padrões.
+- **✔ Capítulo 1 — Fundamentos:**  O que é estatística e por que ela importa.
+- **✔ Capítulo 2 — Estatística descritiva:** Como resumir dados.
+- **✔ Capítulo 3 — Visualização:**  Como ver padrões.
 
 Agora entramos na parte mais conceitual:
 
@@ -1947,19 +1939,17 @@ Regressão e correlação
 
 ### Por que isso importa agora?
 
-Porque distribuições permitem:
-
-- quantificar incerteza  
-- calcular probabilidades  
-- comparar amostras com populações  
-- fundamentar testes estatísticos  
+- Porque distribuições permitem:
+  - quantificar incerteza  
+  - calcular probabilidades  
+  - comparar amostras com populações  
+  - fundamentar testes estatísticos  
 
 ### Como o conteúdo se encaixa no curso
 
-Este capítulo prepara você para:
-
-- Capítulo 5: Testes de hipótese  
-- Capítulo 6: Regressão e correlação  
+- Este capítulo prepara você para:
+  - Capítulo 5: Testes de hipótese  
+  - Capítulo 6: Regressão e correlação  
 
 Sem distribuições, não existe teste t, valor p, alfa, nem inferência.
 
@@ -1970,37 +1960,37 @@ Sem distribuições, não existe teste t, valor p, alfa, nem inferência.
 <details>
 <br>
 
-A estatística inferencial responde perguntas como:
-
-- “Qual é a chance de observar esse valor?”  
-- “Esse resultado é raro ou esperado?”  
-- “Minha amostra representa a população?”  
-- “A diferença entre grupos é significativa?”  
+- A estatística inferencial responde perguntas como:
+  - Qual é a chance de observar esse valor?  
+  - Esse resultado é raro ou esperado?  
+  - Minha amostra representa a população?  
+  - A diferença entre grupos é significativa?  
 
 Para responder a essas perguntas, precisamos de **distribuições de probabilidade**.
 
 ### Exemplos reais do cotidiano
 
-#### 🌧 Meteorologia  
-- chance de chuva  
-- chance de temperatura acima de 30°C  
+- #### 🌧 Meteorologia  
+  - chance de chuva  
+  - chance de temperatura acima de 30°C  
 
-#### 📈 Finanças  
-- probabilidade de retorno negativo  
-- risco (volatilidade)  
+- #### 📈 Finanças  
+  - probabilidade de retorno negativo  
+  - risco (volatilidade)  
 
-#### 🏥 Saúde  
-- probabilidade de pressão arterial acima de certo valor  
-- distribuição de idades de pacientes  
+- #### 🏥 Saúde  
+  - probabilidade de pressão arterial acima de certo valor  
+  - distribuição de idades de pacientes  
 
-#### 🎮 Esportes  
-- probabilidade de um jogador marcar acima da média  
+- #### 🎮 Esportes  
+  - probabilidade de um jogador marcar acima da média  
 
-#### 🎲 Jogos de azar  
-- soma de dois dados  
-- probabilidade de tirar um número específico  
+- #### 🎲 Jogos de azar  
+  - soma de dois dados  
+  - probabilidade de tirar um número específico  
 
 ---
+
 
 ### Fluxograma — Quando usar distribuições de probabilidade
 
@@ -2008,16 +1998,18 @@ Para responder a essas perguntas, precisamos de **distribuições de probabilida
 Início
   ↓
 Tenho um evento incerto?
-  ↓
-Sim → Identificar espaço amostral
-  ↓
-Definir variável aleatória
-  ↓
-Escolher distribuição adequada
-  ↓
-Calcular probabilidades
-  ↓
-Interpretar resultados
+    ↓
+
+  Sim  →  Identificar espaço amostral
+
+    ↓
+    Definir variável aleatória
+      ↓
+    Escolher distribuição adequada
+      ↓
+    Calcular probabilidades
+      ↓
+    Interpretar resultados
 ~~~
 
 ---
@@ -2043,13 +2035,13 @@ Distribuições de Probabilidade
 ### Script conceitual — Processo mental do analista
 
 ~~~text
-1. Identifique o evento aleatório
-2. Liste todos os resultados possíveis (espaço amostral)
-3. Defina a variável aleatória (X)
-4. Determine se X é discreta ou contínua
-5. Escolha a distribuição apropriada
-6. Calcule probabilidades (PDF, PMF, CDF)
-7. Compare com dados reais
+  1. Identifique o evento aleatório
+  2. Liste todos os resultados possíveis (espaço amostral)
+  3. Defina a variável aleatória (X)
+  4. Determine se X é discreta ou contínua
+  5. Escolha a distribuição apropriada
+  6. Calcule probabilidades (PDF, PMF, CDF)
+  7. Compare com dados reais
 ~~~
 
 ---
@@ -2075,13 +2067,13 @@ Isso gera uma distribuição discreta em forma de pirâmide.
 ### Conclusão da seção
 
 Distribuições de probabilidade são modelos matemáticos que descrevem como valores se comportam.  
-Elas são a base para:
 
-- testes estatísticos  
-- valores p  
-- intervalos de confiança  
-- regressão  
-- machine learning  
+- Elas são a base para:
+  - testes estatísticos  
+  - valores p  
+  - intervalos de confiança  
+  - regressão  
+  - machine learning  
 
 </details>
 <br>
@@ -2098,39 +2090,37 @@ Elas são modelos matemáticos que permitem calcular probabilidades, comparar am
 ### 4.1 Explicação intuitiva
 
 Imagine lançar dois dados.  
-Você sabe intuitivamente que:
 
-- somar **7** é mais provável  
-- somar **2** ou **12** é raro  
+- Você sabe intuitivamente que:
+  - somar **7** é mais provável  
+  - somar **2** ou **12** é raro  
 
 Isso acontece porque **alguns resultados têm mais combinações possíveis**.
 
 Agora imagine medir a **altura** de milhares de pessoas.  
-Você verá uma curva suave, com:
 
-- muitos valores perto da média  
-- poucos valores muito baixos ou muito altos  
+- Você verá uma curva suave, com:
+  - muitos valores perto da média  
+  - poucos valores muito baixos ou muito altos  
 
-Essa forma é a **distribuição normal**.
-
-Distribuições são **padrões de comportamento**.
+> Essa forma é a **distribuição normal**.  
+  - Distribuições são **padrões de comportamento**.
 
 ---
 
 ### 4.2 Explicação formal
 
-Uma distribuição de probabilidade é definida por:
+- Uma distribuição de probabilidade é definida por:
+  - um **espaço amostral** (todos os resultados possíveis)  
+  - uma **variável aleatória** (X)  
+  - uma função que atribui probabilidades:
 
-- um **espaço amostral** (todos os resultados possíveis)  
-- uma **variável aleatória** (X)  
-- uma função que atribui probabilidades:
+- #### Para variáveis discretas:
+  - PMF (Probability Mass Function)
 
-#### Para variáveis discretas:
-- PMF (Probability Mass Function)
-
-#### Para variáveis contínuas:
-- PDF (Probability Density Function)
-- CDF (Cumulative Distribution Function)
+- #### Para variáveis contínuas:
+  - PDF (Probability Density Function)
+  - CDF (Cumulative Distribution Function)
 
 ---
 
@@ -2156,15 +2146,15 @@ Uma distribuição de probabilidade é definida por:
 ### 4.5 Fluxograma — Como identificar a distribuição correta
 
 ~~~text
-Início
-  ↓
-A variável é discreta?
-  ↓
-Sim → Binomial / Poisson / Dois dados
-  ↓
-Não → É contínua?
-  ↓
-Sim → Normal / t / Exponencial / Uniforme
+  Início
+    ↓
+  A variável é discreta?
+      ↓
+    Sim → Binomial / Poisson / Dois dados
+      ↓
+    Não → É contínua?
+        ↓
+      Sim → Normal / t / Exponencial / Uniforme
 ~~~
 
 ---
@@ -2172,17 +2162,17 @@ Sim → Normal / t / Exponencial / Uniforme
 ### 4.6 Árvore conceitual — Estrutura das distribuições
 
 ~~~text
-Distribuições
-├── Discretas
-│   ├── Bernoulli
-│   ├── Binomial
-│   ├── Poisson
-│   └── Soma de dois dados
-└── Contínuas
-    ├── Normal
-    ├── t de Student
-    ├── Exponencial
-    └── Uniforme
+  Distribuições
+  ├── Discretas
+  │   ├── Bernoulli
+  │   ├── Binomial
+  │   ├── Poisson
+  │   └── Soma de dois dados
+  └── Contínuas
+      ├── Normal
+      ├── t de Student
+      ├── Exponencial
+      └── Uniforme
 ~~~
 
 ---
@@ -2190,13 +2180,13 @@ Distribuições
 ### 4.7 Script conceitual — Processo mental do analista
 
 ~~~text
-1. Identifique o tipo de variável (discreta/contínua)
-2. Liste todos os resultados possíveis
-3. Determine se há simetria ou caudas longas
-4. Compare com distribuições conhecidas
-5. Escolha a distribuição apropriada
-6. Calcule probabilidades (PMF, PDF, CDF)
-7. Compare com dados reais
+  1. Identifique o tipo de variável (discreta/contínua)
+  2. Liste todos os resultados possíveis
+  3. Determine se há simetria ou caudas longas
+  4. Compare com distribuições conhecidas
+  5. Escolha a distribuição apropriada
+  6. Calcule probabilidades (PMF, PDF, CDF)
+  7. Compare com dados reais
 ~~~
 
 ---
@@ -2204,13 +2194,13 @@ Distribuições
 ### 4.8 Conclusão da seção
 
 Distribuições são modelos que descrevem incerteza.  
-Elas são a base para:
 
-- testes t  
-- valores p  
-- intervalos de confiança  
-- regressão  
-- machine learning  
+- Elas são a base para:
+  - testes t  
+  - valores p  
+  - intervalos de confiança  
+  - regressão  
+  - machine learning  
 
 </details>
 <br>
@@ -2219,7 +2209,7 @@ Elas são a base para:
 <details>
 <br>
 
-Nesta seção, usamos **dados sintéticos** para ilustrar distribuições, sempre com código curto e conceitual.
+> Nesta seção, usamos **dados sintéticos** para ilustrar distribuições, sempre com código curto e conceitual.
 
 ---
 
@@ -2307,11 +2297,11 @@ norm.cdf(4.5, loc=mu, scale=sigma)
 ### 5.7 Script conceitual — Como interpretar um Z-score
 
 ~~~text
-Z = 0 → valor igual à média
-Z = 1 → 1 desvio padrão acima da média
-Z = -1 → 1 desvio padrão abaixo da média
-Z > 2 → valor raro
-Z > 3 → valor muito raro
+  Z = 0 → valor igual à média
+  Z = 1 → 1 desvio padrão acima da média
+  Z = -1 → 1 desvio padrão abaixo da média
+  Z > 2 → valor raro
+  Z > 3 → valor muito raro
 ~~~
 
 ---
@@ -2319,15 +2309,15 @@ Z > 3 → valor muito raro
 ### 5.8 Fluxograma — Como calcular probabilidade com distribuição normal
 
 ~~~text
-Valor X
-  ↓
-Padronizar → Z = (X - μ) / σ
-  ↓
-Consultar tabela Z ou usar CDF
-  ↓
-Obter probabilidade acumulada
-  ↓
-Interpretar resultado
+  Valor X
+    ↓
+  Padronizar → Z = (X - μ) / σ
+    ↓
+  Consultar tabela Z ou usar CDF
+    ↓
+  Obter probabilidade acumulada
+    ↓
+  Interpretar resultado
 ~~~
 
 </details>
@@ -2337,7 +2327,7 @@ Interpretar resultado
 <details>
 <br>
 
-Distribuições de probabilidade conectam tudo o que aprendemos até agora.
+> Distribuições de probabilidade conectam tudo o que aprendemos até agora.
 
 ---
 
@@ -2360,12 +2350,11 @@ Distribuições de probabilidade conectam tudo o que aprendemos até agora.
 
 ### 6.3 Como prepara para o Capítulo 5 (Testes de Hipótese)
 
-Distribuições são essenciais para:
-
-- valor p  
-- estatística t  
-- regiões de rejeição  
-- alfa (nível de significância)  
+- Distribuições são essenciais para:
+  - valor p  
+  - estatística t  
+  - regiões de rejeição  
+  - alfa (nível de significância)  
 
 ---
 
@@ -2412,104 +2401,69 @@ Inferência Estatística
 <details>
 <br>
 
-Distribuições de probabilidade são ferramentas poderosas, mas exigem cuidado técnico e interpretação criteriosa.  
+>Distribuições de probabilidade são ferramentas poderosas, mas exigem cuidado técnico e interpretação criteriosa.  
 Aqui organizamos boas práticas, limitações, armadilhas e interpretações equivocadas — exatamente como um cientista de dados deve pensar.
 
 ---
 
 ### 7.1 Boas práticas
 
-#### ✔ Verifique se a variável é discreta ou contínua  
-A escolha da distribuição depende disso.
+- **✔ Verifique se a variável é discreta ou contínua:**  A escolha da distribuição depende disso.
 
-#### ✔ Compare dados reais com distribuições teóricas  
-Use histogramas + curvas teóricas (normal, t, etc.).
-
-#### ✔ Padronize valores quando necessário  
-Z-scores facilitam comparações entre variáveis diferentes.
-
-#### ✔ Use CDF para interpretar probabilidades acumuladas  
-Especialmente útil para perguntas do tipo “≤ X”.
-
-#### ✔ Use tabelas Z apenas para valores padronizados  
-Nunca use tabelas Z com valores brutos.
-
-#### ✔ Sempre interprete probabilidades no contexto  
-Uma probabilidade de 20% pode ser alta ou baixa dependendo do problema.
+- **✔ Compare dados reais com distribuições teóricas:**  Use histogramas + curvas teóricas (normal, t, etc.).
+- **✔ Padronize valores quando necessário:**  Z-scores facilitam comparações entre variáveis diferentes.
+- **✔ Use CDF para interpretar probabilidades acumuladas:**  Especialmente útil para perguntas do tipo “≤ X”.
+- **✔ Use tabelas Z apenas para valores padronizados:**  Nunca use tabelas Z com valores brutos.
+- **✔ Sempre interprete probabilidades no contexto:**  Uma probabilidade de 20% pode ser alta ou baixa dependendo do problema.
 
 ---
 
 ### 7.2 Limitações
 
-#### ⚠ Nem todos os dados seguem uma distribuição conhecida  
-Muitos fenômenos reais são assimétricos ou multimodais.
-
-#### ⚠ Normalidade não pode ser assumida automaticamente  
-É comum, mas não garantido.
-
-#### ⚠ Distribuições teóricas são modelos, não verdades absolutas  
-Elas aproximam o comportamento real.
-
-#### ⚠ Pequenas amostras podem distorcer estimativas  
-Por isso existe a distribuição t.
-
-#### ⚠ Probabilidades não garantem resultados individuais  
-Elas descrevem comportamento agregado.
+- **⚠ Nem todos os dados seguem uma distribuição conhecida:**  Muitos fenômenos reais são assimétricos ou multimodais.
+- **⚠ Normalidade não pode ser assumida automaticamente:**  É comum, mas não garantido.
+- **⚠ Distribuições teóricas são modelos, não verdades absolutas:**  Elas aproximam o comportamento real.
+- **⚠ Pequenas amostras podem distorcer estimativas:**  Por isso existe a distribuição t.
+- **⚠ Probabilidades não garantem resultados individuais:**  Elas descrevem comportamento agregado.
 
 ---
 
 ### 7.3 Armadilhas comuns
 
-#### ❗ Assumir normalidade sem verificar  
-Histograma e Q-Q plot ajudam a validar.
-
-#### ❗ Usar média e desvio padrão em distribuições assimétricas  
-Mediana e IQR podem ser melhores.
-
-#### ❗ Interpretar probabilidade acumulada como probabilidade pontual  
-CDF ≠ PDF.
-
-#### ❗ Usar tabela Z com valores não padronizados  
-Erro clássico.
-
-#### ❗ Confundir probabilidade com frequência observada  
-Probabilidade é teórica; frequência é empírica.
+- **❗ Assumir normalidade sem verificar:**  Histograma e Q-Q plot ajudam a validar.
+- **❗ Usar média e desvio padrão em distribuições assimétricas:**  Mediana e IQR podem ser melhores.
+- **❗ Interpretar probabilidade acumulada como probabilidade pontual:**  CDF ≠ PDF.
+- **❗ Usar tabela Z com valores não padronizados:**  Erro clássico.
+-  **❗ Confundir probabilidade com frequência observada:**  Probabilidade é teórica; frequência é empírica.
 
 ---
 
 ### 7.4 Interpretações equivocadas
 
-#### ❌ “Se a probabilidade é baixa, o evento não ocorre”  
-Eventos raros acontecem — e são importantes.
-
-#### ❌ “Se a probabilidade é alta, o evento é garantido”  
-Probabilidade ≠ certeza.
-
-#### ❌ “Distribuição normal significa dados perfeitos”  
-Normalidade é apenas um modelo.
-
-#### ❌ “Valor p é a probabilidade da hipótese ser verdadeira”  
-Valor p NÃO mede isso.
+- **❌ “Se a probabilidade é baixa, o evento não ocorre”:**  Eventos raros acontecem — e são importantes.
+- **❌ “Se a probabilidade é alta, o evento é garantido”:**  Probabilidade ≠ certeza.
+- **❌ “Distribuição normal significa dados perfeitos”:**  Normalidade é apenas um modelo.
+- **❌ “Valor p é a probabilidade da hipótese ser verdadeira”:**  Valor p NÃO mede isso.
 
 ---
 
 ### 7.5 Fluxograma — Evitando erros comuns
 
 ~~~text
-Início
-  ↓
-A variável é contínua?
-  ↓
-Sim → Verificar forma da distribuição
-  ↓
-Parece normal?
-  ↓
-Sim → Usar média, desvio padrão, Z-score
-Não → Usar mediana, IQR, distribuições alternativas
-  ↓
-Calcular probabilidades com CDF
-  ↓
-Interpretar no contexto
+  Início
+    ↓
+  A variável é contínua?
+      ↓
+    Sim → Verificar forma da distribuição
+        ↓
+      Parece normal?
+          ↓
+        Sim → Usar média, desvio padrão, Z-score
+        Não → Usar mediana, IQR, distribuições alternativas
+            ↓
+          Calcular probabilidades com CDF
+            ↓
+          Interpretar no contexto
 ~~~
 
 ---
@@ -2535,85 +2489,66 @@ Distribuições
 <details>
 <br>
 
-Aqui estão as definições essenciais para consulta rápida.
+> Aqui estão as definições essenciais para consulta rápida.
 
 ---
 
 ### 8.1 Conceitos fundamentais
 
-#### **Probabilidade**  
-Medida entre 0 e 1 que indica a chance de um evento ocorrer.
-
-#### **Variável aleatória (X)**  
-Função que atribui valores numéricos a eventos aleatórios.
-
-#### **Espaço amostral (Ω)**  
-Conjunto de todos os resultados possíveis.
+- **Probabilidade:**  Medida entre 0 e 1 que indica a chance de um evento ocorrer.
+- **Variável aleatória (X):**  Função que atribui valores numéricos a eventos aleatórios.
+- **Espaço amostral (Ω):**  Conjunto de todos os resultados possíveis.
 
 ---
 
 ### 8.2 Funções de probabilidade
 
-#### **PMF (Probability Mass Function)**  
-Usada para variáveis discretas.
-
-#### **PDF (Probability Density Function)**  
-Usada para variáveis contínuas.
-
-#### **CDF (Cumulative Distribution Function)**  
-Probabilidade acumulada: P(X ≤ x).
+- **PMF (Probability Mass Function):**  Usada para variáveis discretas.
+- **PDF (Probability Density Function):**  Usada para variáveis contínuas.
+- **CDF (Cumulative Distribution Function):**  Probabilidade acumulada: P(X ≤ x).
 
 ---
 
 ### 8.3 Distribuições importantes
 
-#### **Normal**  
-Simétrica, em forma de sino, definida por média e desvio padrão.
-
-#### **Normal padrão**  
-Média 0, desvio padrão 1.
-
-#### **t de Student**  
-Semelhante à normal, mas com caudas mais largas; usada para amostras pequenas.
-
-#### **Binomial**  
-Número de sucessos em n tentativas.
-
-#### **Poisson**  
-Número de eventos raros em um intervalo.
+- **Normal:**  Simétrica, em forma de sino, definida por média e desvio padrão.
+- **Normal padrão:**  Média 0, desvio padrão 1.
+- **t de Student:**  Semelhante à normal, mas com caudas mais largas; usada para amostras pequenas.
+- **Binomial:**  Número de sucessos em n tentativas.
+- **Poisson:**  Número de eventos raros em um intervalo.
 
 ---
 
 ### 8.4 Padronização
 
-#### **Z-score**  
-Z = (X − μ) / σ  
-Transforma qualquer valor em unidades de desvio padrão.
+- **Z-score**  
+  - Z = (X − μ) / σ  
+    Transforma qualquer valor em unidades de desvio padrão.
 
 ---
 
 ### 8.5 Alfa e valor p
 
-#### **Alfa (α)**  
-Nível de significância; probabilidade de rejeitar H0 quando ela é verdadeira.
+- **Alfa (α)**  
+  - Nível de significância; probabilidade de rejeitar H0 quando ela é verdadeira.
 
-#### **Valor p**  
-Probabilidade de observar um valor tão extremo quanto o observado, assumindo H0 verdadeira.
+- **Valor p**  
+  - Probabilidade de observar um valor tão extremo quanto o observado, assumindo H0 verdadeira.
 
 ---
 
 ### 8.6 Fluxograma — Como navegar no glossário
 
 ~~~text
-Preciso entender probabilidade?
-  ↓
-É sobre valores individuais? → PDF/PMF
-  ↓
-É sobre valores acumulados? → CDF
-  ↓
-É sobre padronização? → Z-score
-  ↓
-É sobre testes? → Alfa e valor p
+  Preciso entender probabilidade?
+    ↓
+  É sobre valores individuais? → PDF/PMF
+    ↓
+  É sobre valores acumulados? → CDF
+    ↓
+  É sobre padronização? → Z-score
+    ↓
+  É sobre testes? → Alfa e valor p
 ~~~
 
 </details>
@@ -2623,7 +2558,7 @@ Preciso entender probabilidade?
 <details>
 <br>
 
-Esta seção resume os pontos-chave do capítulo.
+> Esta seção resume os pontos-chave do capítulo.
 
 ---
 
@@ -2639,26 +2574,23 @@ Esta seção resume os pontos-chave do capítulo.
 
 ### 9.2 Fórmulas importantes
 
-#### Z-score  
-Z = (X − μ) / σ
+- **Z-score:** Z = (X − μ) / σ
 
-#### Probabilidade acumulada  
-P(X ≤ x) = CDF(x)
+- **Probabilidade acumulada:** P(X ≤ x) = CDF(x)
 
-#### Probabilidade complementar  
-P(X > x) = 1 − CDF(x)
+- **Probabilidade complementar:** P(X > x) = 1 − CDF(x)
 
 ---
 
 ### 9.3 Fluxograma — Resumo operacional
 
 ~~~text
-1. Identifique o tipo de variável
-2. Escolha a distribuição adequada
-3. Padronize se necessário (Z-score)
-4. Use CDF para probabilidades acumuladas
-5. Compare com dados reais
-6. Interprete no contexto
+  1. Identifique o tipo de variável
+  2. Escolha a distribuição adequada
+  3. Padronize se necessário (Z-score)
+  4. Use CDF para probabilidades acumuladas
+  5. Compare com dados reais
+  6. Interprete no contexto
 ~~~
 
 </details>
@@ -2669,35 +2601,33 @@ P(X > x) = 1 − CDF(x)
 <br>
 
 Distribuições de probabilidade são o alicerce da inferência estatística.  
-Elas permitem:
 
-- quantificar incerteza  
-- calcular probabilidades  
-- comparar amostras com populações  
-- fundamentar testes estatísticos  
-- interpretar valores extremos  
+- Elas permitem:
+  - quantificar incerteza  
+  - calcular probabilidades  
+  - comparar amostras com populações  
+  - fundamentar testes estatísticos  
+  - interpretar valores extremos  
 
 Com elas, passamos de **descrição** para **inferência**.
 
 ### 🔗 Preparação para o notebook
 
-O notebook do módulo 4 permitirá:
-
-- gerar distribuições teóricas  
-- comparar dados reais com curvas normais  
-- calcular probabilidades com CDF  
-- padronizar valores (Z-score)  
-- usar SciPy para PDF e CDF  
+- O notebook do módulo 4 permitirá:
+  - gerar distribuições teóricas  
+  - comparar dados reais com curvas normais  
+  - calcular probabilidades com CDF  
+  - padronizar valores (Z-score)  
+  - usar SciPy para PDF e CDF  
 
 ### 🎯 Gancho para o próximo capítulo
 
-O próximo capítulo aborda **testes de hipótese**, onde você aprenderá:
-
-- como usar alfa  
-- como interpretar valor p  
-- como usar a distribuição t  
-- como comparar médias  
-- como tomar decisões estatísticas  
+- O próximo capítulo aborda **testes de hipótese**, onde você aprenderá:
+  - como usar alfa  
+  - como interpretar valor p  
+  - como usar a distribuição t  
+  - como comparar médias  
+  - como tomar decisões estatísticas  
 
 As distribuições são a base para tudo isso.
 

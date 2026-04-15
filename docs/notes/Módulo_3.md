@@ -9,6 +9,12 @@
 A visualização é uma ferramenta essencial para entender dados.  
 O tipo de gráfico adequado depende do tipo de variável analisada (categórica ou contínua) e do objetivo da análise (comparar, mostrar distribuição, composição ou relação entre variáveis).
 
+<p float="left">
+  <img src="../../images/tipoGraficos_1.jpg" width="45%" />
+  <img src="../../images/tipoGraficos_3.jpg" width="45%" />
+</p>
+
+
 ---
 
 ## 🧠 Conceitos importantes
@@ -20,13 +26,15 @@ O tipo de gráfico adequado depende do tipo de variável analisada (categórica 
 ### **2. Método de Apresentação Extrema (Dr. Andrew Abela)**
 Guia para escolher o gráfico certo conforme o objetivo:
 
-| Objetivo | Tipo de gráfico |
-|---------|-----------------|
-| Comparar categorias | barras, colunas |
-| Comparar ao longo do tempo | linhas |
-| Mostrar relação entre variáveis contínuas | dispersão |
-| Mostrar composição | pizza, barras empilhadas |
-| Mostrar distribuição | histogramas, densidade |
+```text
+| Objetivo                                  | Tipo de gráfico            
+|-------------------------------------------|-------------------------
+| Comparar categorias                       | barras, colunas            
+| Comparar ao longo do tempo                | linhas                     
+| Mostrar relação entre variáveis contínuas | dispersão                  
+| Mostrar composição                        | pizza, barras empilhadas   
+| Mostrar distribuição                      | histogramas, densidade     
+```
 
 ### **3. Gráficos com múltiplas variáveis**
 - Gráfico de bolhas → 3 variáveis (x, y, tamanho).  
