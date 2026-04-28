@@ -26,6 +26,8 @@ notebooks/3_*
 notebooks/4_*
 notebooks/5_*
 notebooks/6_*
+notebooks/7_*
+notebooks/8_*
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
