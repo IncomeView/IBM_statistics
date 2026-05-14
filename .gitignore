@@ -20,14 +20,7 @@ venv/
 notebooks/copilot/prompt*
 notebooks/copilot/model.py
 notebooks/laboratory_IBM
-notebooks/1_*
-notebooks/2_*
-notebooks/3_*
-notebooks/4_*
-notebooks/5_*
-notebooks/6_*
-notebooks/7_*
-notebooks/8_*
+notebooks/laboratory_mms
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
