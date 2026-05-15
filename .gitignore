@@ -21,10 +21,8 @@ notebooks/copilot/prompt*
 notebooks/copilot/model.py
 notebooks/laboratory_IBM
 notebooks/laboratory_mms
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+data
+docs/statistics_book.md
 
 # --- Outputs ---
 outputs/figures/*
