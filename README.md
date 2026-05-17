@@ -13,10 +13,10 @@ $\to\qquad$ **<u> Ambiente de estudo, prática e documentação pessoal baseado 
 <br>
 
 ### <u> 🔖 Badges Automáticos (GitHub) </u>
-![GitHub Tag](https://img.shields.io/github/v/tag/IncomeView/IBM/statistics?label=vers%C3%A3o&color=blue)
-![CI](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM/statistics/ci.yml?label=CI)
-![CD](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM/statistics/cd.yml?label=CD)
-![Commits](https://img.shields.io/github/commit-activity/m/IncomeView/IBM/statistics)
+![GitHub Tag](https://img.shields.io/github/v/tag/IncomeView/IBM_statistics?label=vers%C3%A3o&color=blue)
+![CI](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM_statistics/python-ci.yml?label=CI)
+![CD](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM_statistics/python-cd.yml?label=CD)
+![Commits](https://img.shields.io/github/commit-activity/m/IncomeView/IBM_statistics)
 
 
 ### 🛠️ <u> Tecnologias </u>  
