@@ -1,9 +1,25 @@
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Statistics%20for%20Data%20Science%20with%20Python-IBM-blue?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
 <br>
 
 ## 📊 Statistics for Data Science with Python — IBM  
 
-### <u> Ambiente de estudo, prática e documentação pessoal baseado no curso da IBM.</u>
+$\to\qquad$ **<u> Ambiente de estudo, prática e documentação pessoal baseado no curso da IBM.</u>**
 
+<br>
+
+### <u> 🔖 Badges Automáticos (GitHub) </u>
+![GitHub Tag](https://img.shields.io/github/v/tag/IncomeView/IBM_statistics?label=vers%C3%A3o&color=blue)
+![CI](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM_statistics/ci.yml?label=CI)
+![CD](https://img.shields.io/github/actions/workflow/status/IncomeView/IBM_statistics/cd.yml?label=CD)
+![Commits](https://img.shields.io/github/commit-activity/m/IncomeView/IBM_statistics)
+
+
+### 🛠️ <u> Tecnologias </u>  
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
